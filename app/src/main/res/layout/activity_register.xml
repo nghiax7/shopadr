@@ -1,0 +1,118 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Tiêu đề Đăng Ký -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng Ký"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Trường Tên đăng nhập -->
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên đăng nhập *"
+            android:inputType="text"
+            android:padding="12dp"
+            android:backgroundTint="#000000"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Trường Email -->
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email *"
+            android:inputType="textEmailAddress"
+            android:padding="12dp"
+            android:backgroundTint="#000000"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Trường Mật khẩu -->
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mật khẩu *"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:backgroundTint="#000000"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Trường Nhập lại mật khẩu -->
+        <EditText
+            android:id="@+id/confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập lại mật khẩu *"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:backgroundTint="#000000"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Trường Họ và tên -->
+        <EditText
+            android:id="@+id/full_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Họ và tên *"
+            android:inputType="textPersonName"
+            android:padding="12dp"
+            android:backgroundTint="#000000"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Trường Số điện thoại -->
+        <EditText
+            android:id="@+id/phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Số điện thoại *"
+            android:inputType="phone"
+            android:padding="12dp"
+            android:backgroundTint="#000000"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Trường Địa chỉ -->
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Địa chỉ *"
+            android:inputType="textPostalAddress"
+            android:padding="12dp"
+            android:backgroundTint="#000000"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Nút Đăng ký -->
+        <Button
+            android:id="@+id/register_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đăng ký"
+            android:backgroundTint="#007AFF"
+            android:textColor="#FFFFFF"
+            android:padding="12dp"
+            android:layout_marginTop="24dp" />
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quay lại"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#141414"
+            android:padding="12dp"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>
